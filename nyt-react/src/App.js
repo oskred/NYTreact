@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Child1 from './components/child1';
-// import child2 from 'child2.js';
-// import child3 from 'child3.js';
+import Child2 from './components/child2';
+
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
               <p> Search for and annotate articles of interest </p>
         </div>
             <Child1 />
+            <Child2 />
       </div>
 
     );
