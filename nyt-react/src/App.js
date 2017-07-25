@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Child1 from './components/child1';
+// import child2 from 'child2.js';
+// import child3 from 'child3.js';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+      <div className="container">
+        <div className="jumbotron">
+            <h2>New York Times Article Search</h2>
+              <p> Search for and annotate articles of interest </p>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+            <Child1 />
       </div>
+
     );
   }
 }
